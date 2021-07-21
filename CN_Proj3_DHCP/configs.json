@@ -1,0 +1,19 @@
+{
+  "pool_mode": "range",
+  "range":{
+    "from": "192.168.1.2",
+    "to": "192.168.1.10"
+  },
+  "subnet":{
+    "ip_block": "192.168.1.0",
+    "subnet_mask": "255.255.255.224"
+  },
+  "lease_time": 10,
+  "reservation_list": {
+    "DE:AD:BE:EF:C0:11": "192.168.1.2",
+    "DE:AD:BE:EF:C0:22": "192.168.1.3"
+  },
+  "black_list": [
+    "DE:AD:BE:EF:C0:33", "DE:AD:BE:EF:C0:00"
+  ]
+}
